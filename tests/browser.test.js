@@ -38,5 +38,5 @@ test('Popping on empty stack', async () => {
     await pop.click();
     let alert = await driver.switchTo().alert();
     let text = await alert.getText();
-    expect(text).toEqual("Banan");
+    expect(text).toEqual("Tog bort Bananer");
 });

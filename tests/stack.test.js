@@ -22,5 +22,5 @@ test('delete a element', () => {
     stack.push(1);
     stack.pop();
     expect(stack.pop()).toBeDefined();
-    expect(stack.pop()).toBe(4);
+    expect(stack.pop()).toBe("wow");
 });
